@@ -105,7 +105,7 @@ namespace ASE
 		char pathLast = this->mPath[this->mPath.size() - 1];
 		if (!(pathLast == '\\' || pathLast == '/'))
 			this->mPath += '/';
-			*/
+		*/
 	}
 
 	bool TraverseDirect::TraverseChild(std::string dir, unsigned long long dirNum)
